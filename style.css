@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #2a2438;
+}
+
+hr {
+    background: #352f44;
+    height: 2px;
+    border: none;
+}
+
+#start {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: #2a2438;
+    text-align: center;
+    color: #dbd8e3;
+}
+
+#start button {
+    height: 2rem;
+    width: 6rem;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    color: #dbd8e3;
+    background: #352f44;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header {
+    background: #352f44;
+    text-align: center;
+    
+}
+
+header h1 {
+    color: #dbd8e3;
+    padding: 0.3rem 0 0.3rem 0;
+}
+
+#pytanie_nr {
+    background: #352f44;
+    color: #5c5470;
+    text-align: center;
+    font-size: 0.5rem;
+    margin: 1em;
+    padding: 0.5em;
+}
+  
+#pytanie_tekst {
+    color: #dbd8e3;
+    text-align: center;
+    border-top: 2px solid #352f44;
+    border-bottom: 2px solid #352f44;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+#odpowiedzi {
+    color: #dbd8e3;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+    text-align: left;
+}
+
+.odpowiedz {
+    background: #352f44;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+#zatwierdz_btn {
+    color: #dbd8e3;
+    background: #352f44;
+    border: none;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 1rem auto;
+    display: block;
+}
+
+#nastepne_btn {
+    color: #dbd8e3;
+    background: #352f44;
+    border: none;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 1rem auto;
+    display: none;
+}
+
+#ekran_koniec {
+    display: none;
+}
+
+#pkt_koniec {
+    color: #dbd8e3;
+    background: #352f44;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2rem 1rem 2rem 1rem;
+    padding: 1rem 0 1rem 0;
+}
+
+#odp_koniec {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem;
+}
+
+#odp_koniec span {
+    color: #dbd8e3;
+    background: #352f44;
+    padding: 1rem;
+    border-radius: 10px;
+}

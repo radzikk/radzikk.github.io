@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="start">
+        <header>
+            <h1>Quiz</h1>
+        </header>
+        <button onclick="start()">Rozpocznij</button>
+    </div>
+
+    <header>
+        <h1>Quiz</h1>
+    </header>
+
+    <div id="pytanie_nr">
+        <h1 id="pytka">Pytanie: 1 / 8</h1>
+    </div>
+
+    <div id="pytanie_tekst">
+        
+    </div>
+    
+    <div id="odpowiedzi">
+        <div class="odpowiedz" onclick="zaznacz('a')" id="odp_a"><span>A. </span><span id="odp_a_t"></span></div>
+        <div class="odpowiedz" onclick="zaznacz('b')" id="odp_b"><span>B. </span><span id="odp_b_t"></span></div>
+        <div class="odpowiedz" onclick="zaznacz('c')" id="odp_c"><span>C. </span><span id="odp_c_t"></span></div>
+        <div class="odpowiedz" onclick="zaznacz('d')" id="odp_d"><span>D. </span><span id="odp_d_t"></span></div>
+        <div class="odpowiedz" onclick="zaznacz('e')" id="odp_e"><span>E. </span><span id="odp_e_t"></span></div>
+        <div class="odpowiedz" onclick="zaznacz('f')" id="odp_f"><span>F. </span><span id="odp_f_t"></span></div>
+    </div>
+    
+    <hr id="hr">
+    <button id="zatwierdz_btn" onclick="sprawdz()">Gotowe</button>
+    <button id="nastepne_btn" onclick="nastepne()">Następne pytanie</button>
+    <hr id="hr">
+
+    <div id="ekran_koniec">
+        <h1 id="pkt_koniec">Masz tyle na tyle</h1>
+        <div id="odp_koniec">
+            <span id="odp_k1"></span>
+            <span id="odp_k2"></span>
+            <span id="odp_k3"></span>
+            <span id="odp_k4"></span>
+            <span id="odp_k5"></span>
+            <span id="odp_k6"></span>
+            <span id="odp_k7"></span>
+            <span id="odp_k8"></span>
+        </div>
+    </div>
+     
+
+    <script src="script.js"></script>
+</body>
+</html>
