@@ -3,14 +3,14 @@ let zaznaczona;
 let aktualnePyt;
 let punkty = 0;
 let pytania = ['Dlaczego mam kręcone włosy?', 'Jak nazywa się moja mama?', 'Czy jestem pieskiem?', 'Ile sie znamy?', 'Dodasz mnie na tiktoku, żebym znów mógł oglądać tiktoki od Ciebie?',
-               'Czy teskniłaś za mną chociaż odrobinę?', 'Czy zauważyłaś ukryte napisy na obrazie, który podarowałem Ci w urodziny?', 'Ile wyciskam na klatę?'];
+               'Co robiłaś jak do Ciebie pierwszy raz napisałem na instagramie?', 'Czy zauważyłaś ukryte napisy na obrazie, który podarowałem Ci w urodziny?', 'Ile wyciskam na klatę?'];
 let odpowiedziWszystkie = [
         ['Bo zrobiłem trwałą ondulację.', 'Bo ich nie myję.', 'Po tacie', 'Po mamie', 'Po psie dafim', 'Bo jestem pudlem.'],
         ['Bogumiła', 'Lucyna', 'Janina', 'Natalia', 'Iwona', 'Martyna'],
         ['Nie', 'Nie', 'Nie', 'Nie', 'Nie', 'Tak'],
         ['9 Miesięcy', '9.5 Miesiąca', '10 Miesięcy', '11 Miesięcy', '1 Rok', '1 Rok i 1 miesiąc'],
         ['Tak, z chęcią', 'Oczywiście', 'Dodam Cię', 'Nie', 'Zastanowię się', 'Może'],
-        ['Bardzo', 'Trochę', 'Może', 'Niezbyt', 'Wcale', 'Nie zadawaj mi tego pytania'],
+        ['Grałaś w lola', 'Kąpałaś się', 'Grałaś w Brawl Stars', 'Leżałaś', 'Byłaś w szkole', 'Malowałaś się'],
         ['Nie', 'Chujowy był ten obraz', 'Zauważyłam', 'Nie przyglądałam się bo bolał w oczy', 'Nie mam tego obrazu', 'Jaki obraz?'],
         ['90kg', '95kg', '100kg', '102.5kg', '105kg', '107,5kg'],
 ];
@@ -21,7 +21,7 @@ let prawidloweOdp = [
     ['a', 'b', 'c', 'd', 'e'],
     ['c'],
     ['a', 'b', 'c'],
-    ['a', 'b'],
+    ['b'],
     ['c'],
     ['e'],
 ];
@@ -32,7 +32,7 @@ let pomaranczOdp = [
     [],
     [],
     ['e', 'f'],
-    ['f', 'c'],
+    [],
     [],
     ['f'],
 ];
